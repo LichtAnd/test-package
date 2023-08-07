@@ -2,9 +2,9 @@
 
 namespace LichtAnd\TestPackage;
 
+use LichtAnd\TestPackage\Commands\TestPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use LichtAnd\TestPackage\Commands\TestPackageCommand;
 
 class TestPackageServiceProvider extends PackageServiceProvider
 {
